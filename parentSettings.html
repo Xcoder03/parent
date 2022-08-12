@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ward</title>
-    <link rel="stylesheet" href="ParentStyles/style.css">
+    <link rel="stylesheet" href="ParentStyles/settings.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
@@ -34,27 +34,41 @@
         </div>
 
         <div class="main">
-          <div class="img">
-           <img src="ParentImages/parent-child.jpg" alt="">
-          </div>
-          <h2>Catch Up on your child's progress.  <i class="bi bi-graph-up-arrow"></i></h2>
-          <div class="access">
-            <p>Your child must be signed up on estudiez with their school to access child's progress</p>
-            <p>If not please ask the school to register your child.</p>
-          </div>
+            <div class="acct">
+                <i class="bi bi-person-circle"></i>
+                <h2>Account Settings</h2>
+            </div>
+            <div class="acct-change">
+                <div class="change1">
+                    <div class="name">
+                        <p>First Name</p>
+                        <input type="text">
+                    </div>
 
-          <div class="wardmails">
-                <div class="wardmail">
-                    <p>Please Enter child's email address.</p>
-                    <input type="text">
-                    <p class="red">Enter a valid mail</p>
+                    <div class="name">
+                        <p>Email</p>
+                        <input type="email">
+                    </div>
+                   
                 </div>
-                <div class="edit">
-                    <button>Add child</button>
-                    <button>Clear</button>
-                </div>
-          </div>
 
+                <div class="change2">
+                    <div class="name">
+                        <p>Last Name</p>
+                        <input type="text">
+                    </div>
+
+                    <div class="name">
+                        <p>Phone Number</p>
+                        <input type="text">
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="update">
+                <button>Update</button>
+                <button>Cancel</button>
+            </div>
         </div>
     </div>
 </body>

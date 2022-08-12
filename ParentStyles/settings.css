@@ -121,7 +121,7 @@ body{
 .main{
     /* background-color: red; */
     width: 90%;
-    height: 100%;
+    height: 100vh;
  
     display: flex;
     align-items: center;
@@ -132,82 +132,87 @@ body{
 
 }
 
-.img{
-    height: 350px;
-    width: 350px;
-
+.acct{
+   height: 100px;
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
 }
 
-.img img{
-    height: 100%;
-    width: 100%;
-}
-.main h2 {
+.acct i{
+    font-size: 30px;
     color: rgb(48, 47, 79);
-    font-size: 35px;
+}
+.acct h2{
+    font-size: 30px;
+    color: rgb(48, 47, 79);
 }
 
-.access{
-    height: 80px;
+.acct-change{
+    height: 250px;
     width: 70%;
-    background-color: honeydew;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.change1{
+    height: 180px;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: flex-start;
+}
+.change2{
+    height: 180px;
+    width: 40%;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
-.wardmails{
-    height: 150px;
+.name{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: rgb(48, 47, 79);
+}
+.name input{
+    padding: 5px 10px;
     width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.wardmail{
-    height: 100px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.wardmail input{
     outline: none;
-    padding: 5px 30px;
-    border: 1px solid rgb(48, 47, 79);
+    border:  1px solid rgb(48, 47, 79);
 }
-.wardmail input:focus{
-    border: 2px solid rgb(48, 47, 79);
+
+.name input:focus{
+    border:  2px solid rgb(48, 47, 79);
 }
-.red{
-    color: red;
-    font-size: 14px;
-    display: none;
-}
-.edit{
+.update{
     height: 100px;
     width: 40%;
- 
+    margin-right: 230px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-
 }
 
-.edit button{
+.update button{
     padding: 10px 30px;
-    font-size: 15px;
-    font-family: 'Signika Negative', sans-serif;
-    border: none;
+    border: 1px solid rgb(48, 47, 79);
     background-color: rgb(48, 47, 79);
+    font-size: 15px;
     color: white;
 }
-.edit button:nth-child(2){
-    padding: 9px 40px;
-    border: 1px solid rgb(48, 47, 79);
+
+.update button:nth-child(2){
+    margin-left: 30px;
     background-color: white;
     color: rgb(48, 47, 79);
 }
